@@ -1,0 +1,208 @@
+header{
+    box-sizing: border-box;
+    padding-top: 62rem;
+    width: 37.5rem;
+    height: 65.25rem;
+    background: url("../images/headerBg.png") center no-repeat;
+    background-size: cover;
+}
+
+header .BtnGroup{
+    position: relative;
+    box-sizing: border-box;
+    width: 37.5rem;
+    height: 2.2rem;
+    padding: 0 1.5rem 0 2.5rem;
+}
+header .BtnGroup span{
+    position: absolute;
+    display: inline-block;
+}
+header .BtnGroup .regulation-Btn{
+    top: 0.65rem;
+    margin-right: 14rem;
+    width: 8.5rem;
+    height: 1.5rem;
+    background: url("../images/regulation.png") center no-repeat;
+    background-size: cover;
+}
+header .BtnGroup .write-Btn{
+    right: 1.8rem;
+    width: 10.05rem;
+    height: 2.15rem;
+    background: url("../images/write-icon.png") center no-repeat;
+    background-size: cover;
+}
+section.regulation{
+    position: fixed;
+    top: 40%;
+    left: 3.7rem;
+    display: none;
+    z-index: 9999;
+}
+section.regulation div{
+    box-sizing: border-box;
+    padding: 2.3rem 2.5rem 0 1.8rem;
+    width: 30.1rem;
+    height: 21rem;
+    border: 0.15rem solid #db755c;
+    border-radius: 1rem;
+    background-color: #ffeee2;
+}
+section.regulation div span{
+    position: absolute;
+    top:-3.65rem;
+    right: 0rem;
+    display: inline-block;
+    width: 2.25rem;
+    height: 3.7rem;
+    background: url("../images/regulation-close.png") center no-repeat;
+    background-size: cover;
+}
+
+section.regulation div p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #666666;
+}
+
+footer{
+    box-sizing: border-box;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 37.5rem;
+    height: 100%;
+    background-color: #ffeee2;
+}
+footer .message{
+    //overflow: auto;
+    position: relative;
+    margin: 0 auto;
+    padding: 2rem 2.2rem 1.8rem 1.5rem;
+    box-sizing: border-box;
+    width: 34.5rem;
+    height: 100%;
+    border: 0.15rem solid #dd7b63;
+    border-radius: 0.5rem;
+    background-color: #fff9f4;
+}
+.message:before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 27rem;
+    top: -1.65rem;
+    border-bottom: 1.65rem solid #dd7b63;
+    border-left: 1.65rem solid transparent;
+    border-right: 1.65rem solid transparent;
+}
+.message:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 27.15rem;
+    top: -1.4rem;
+    border-bottom: 1.5rem solid #fff9f4;
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+}
+.message ul li{
+    margin-bottom: 2.5rem;
+}
+.message ul li .photo{
+    display: inline-block;
+    width: 4.1rem;
+    height: 4rem;
+    background: url("../images/photo.png") center no-repeat;
+    background-size: cover;
+}
+.message ul li .title{
+    margin-top: -5rem;
+    margin-left: 6.7rem;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    color: #333333;
+}
+.message ul li .title i{
+    display: inline-block;
+    margin-left: 11rem;
+    margin-right: 1rem;
+    width: 1.7rem;
+    height: 1.85rem;
+    background: url("../images/dianzan-no.png") center no-repeat;
+    background-size: cover;
+}
+.message ul li .title .count{
+    font-size: 1.2rem;
+    color: #666666;
+}
+.message ul li .content{
+    margin-left: 6.7rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    border-bottom: 0.05rem solid #999999;
+    color: #666666;
+}
+.message ul li .time{
+    margin-left: 6.7rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #666666;
+}
+
+.pop-up-one,.pop-up-two{
+    display: none;
+    position: fixed;
+    top: 40%;
+    left: 5.25rem;
+    padding: 3rem 2.2rem 2rem;
+    box-sizing: border-box;
+    width: 27rem;
+    height: 15.2rem;
+    border: 0.15rem solid #db755c;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    color: #666666;
+    background-color: #ffeee2;
+    z-index: 9999;
+}
+.pop-up-one span,.pop-up-two span{
+    position: absolute;
+    display: inline-block;
+    width: 11.5rem;
+    height: 3.2rem;
+    background-color: #db755c;
+    font-size: 1.5rem;
+    color: #fff3e2;
+    border-radius: 3rem;
+    text-align: center;
+    line-height: 3.2rem;
+}
+.pop-up-one span{
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.pop-up-two span{
+    bottom: 2rem;
+}
+.pop-up-two span:nth-child(2){
+    left: 1.5rem;
+}
+.pop-up-two span:nth-child(3){
+    right: 1.5rem;
+}
+.mask {
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    z-index: 1002;
+    left: 0px;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+}

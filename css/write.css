@@ -1,0 +1,48 @@
+header{
+    box-sizing: border-box;
+    padding-top: 1.15rem;
+    padding-left: 2rem;
+    width: 37.5rem;
+    height: 4.3rem;
+    border-bottom: 0.05rem solid #dcdcdc;
+}
+header span{
+    display: inline-block;
+    width: 2.05rem;
+    height: 2rem;
+    background: url("../images/back.png") center no-repeat;
+    background-size: cover;
+}
+section{
+    box-sizing: border-box;
+    padding: 2.1rem 2rem 0 2rem;
+    width: 37.5rem;
+}
+section p{
+    margin-bottom: 1.15rem;
+    font-size: 1.5rem;
+    color: #db755c;
+}
+
+section #writeBox{
+    box-sizing: border-box;
+    margin-bottom: 1.5rem;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    width: 33.5rem;
+    height: 11rem;
+    font-size: 1.2rem;
+    color: #666666;
+    border: none;
+    resize: none;
+    background-color: #f9f9f9;
+}
+section .submit{
+    width: 33.5rem;
+    height: 4.25rem;
+    background-color: #db755c;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 4.25rem;
+    border-radius: 1rem;
+}
